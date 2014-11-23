@@ -15,5 +15,8 @@ def users(request):
     return HttpResponse("this is the users page")
 
 def habit_input(request):
-    return HttpResponse("Please enter your habit")
+    return HttpResponse("Please enter your habit. Do you want to break or form this habit?")
+
+def habit(request):
+    return HttpResponse("Now let's break or form this habit!")
 
