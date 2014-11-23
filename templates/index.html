@@ -6,5 +6,20 @@
 
 <p>This is a CS50 Project by Lily, Jimmy</p>
 
+<p> Here are my users! </p>
+{% for i in users %}
+<p> {{i.username}} </p>
+{% endfor %}
+
+
+<br>
+<br>
+<br>
+<p> Here is the newsfeed! </p>
+
+{% for p in news_feed_posts %}
+<p> {{p.message}} | {{p.user.username}} | {{p.timestamp}} </p>
+{% endfor %}
+
 </body>
 </html>
