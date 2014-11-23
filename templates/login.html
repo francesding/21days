@@ -4,11 +4,13 @@
 <body>
 <h1>21Days</h1>
 <form action="/loginhandler" method="POST">
+{% csrf_token %}
 First name:<br>
 <input type="text" name="username" placeholder="Please Enter Your Username">
 <br>
 Last name:<br>
 <input type="password" name="password" placeholder="Please Enter Your Password">
+<input type="submit" value="Submit">
 </form>
 </body>
 </html>
