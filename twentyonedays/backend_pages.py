@@ -13,3 +13,6 @@ def home(request):
 
 def users(request):
     return HttpResponse("this is the users page")
+
+def login(request):
+    return render_to_response("login.html")
