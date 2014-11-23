@@ -13,3 +13,7 @@ def home(request):
 
 def users(request):
     return HttpResponse("this is the users page")
+
+def habit_input(request):
+    return HttpResponse("Please enter your habit")
+
