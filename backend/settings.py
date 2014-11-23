@@ -1,5 +1,5 @@
 """
-Django settings for twentyonedays project.
+Django settings for backend project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -36,7 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'twentyonedays',
+    'backend',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -49,9 +49,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'twentyonedays.urls'
+ROOT_URLCONF = 'backend.urls'
 
-WSGI_APPLICATION = 'twentyonedays.wsgi.application'
+WSGI_APPLICATION = 'backend.wsgi.application'
 
 
 TEMPLATE_DIRS = ('templates/',)

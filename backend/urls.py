@@ -8,6 +8,6 @@ urlpatterns = patterns('',
     url(r'^users$', users, name='users'),
     url(r'^habit_input$', habit_input, name = 'habit_input'),
     url(r'^habit$', habit, name = 'habit'),
-    url(r'^$register', register, name = 'register'),
+    #url(r'^$register', register, name = 'register'),
     #url(r'^admin/', include(admin.site.urls)),
 )
