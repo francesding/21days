@@ -6,5 +6,6 @@ urlpatterns = patterns('',
     # Examples:
     url(r'^$', home, name='home'),
     url(r'^users$', users, name='users'),
+    url(r'^$register', register, name = 'register'),
     #url(r'^admin/', include(admin.site.urls)),
 )
